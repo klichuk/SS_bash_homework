@@ -27,5 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run script
-        run: chmod +x task.sh
-        run: ./task2.sh a ab abc 1 12 123
+        run: chmod +x task2.sh & ./task2.sh a ab abc 1 12 123
